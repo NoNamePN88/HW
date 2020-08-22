@@ -1,4 +1,4 @@
-const fs = require ('fs');
-const text = fs.readFileSync ('script.js', 'utf8');
-console.clear();
-console.log(text);
+'use strict'
+let objWin;
+objWin=window.navigator;
+console.log(objWin);
