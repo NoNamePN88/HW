@@ -1,4 +1,4 @@
 'use strict'
 let objWin;
-objWin=window.navigator;
+objWin=window.navigator.appCodeName;
 console.log(objWin);
